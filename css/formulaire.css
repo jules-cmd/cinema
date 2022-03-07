@@ -2,25 +2,35 @@
 body{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(16, 17, 17);
+    background-color: rgb(0, 0, 0);
     color: #fff;
 }
-valider{
-    color: red;
+header{
+    margin-right: 8rem;
 }
-footer{
-    margin-top: 2rem;
+section h1{
+    text-align: center;
+    margin-top: 3 rem;
 }
 form{
     border:.1rem;
     border-color: #000000;   
     border-radius: 10px;
-    background: rgb(16, 17, 17);
+    background: rgb(0,0,0);
     margin-left: 20rem;
     margin-right: 20rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 
+}
+img{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+}
+footer{
+    margin-top: 2rem;
 }
 .btn {
     display: inline-block;
