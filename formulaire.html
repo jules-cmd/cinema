@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+    <main>
+        <form action="formulaire.html" method="post">
+
+            <label for="nom">Nom</label> <br>
+            <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true"  autofocus>
+    
+            <label for="prenom">Prénom</label> <br>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom" aria-required="true">
+    
+            <label for="email">Email</label> <br>
+            <input type="text" id="email" name="email" placeholder="Email" aria-required="true">
+    
+            
+                <div>
+                  <label>Pays</label> <br>
+                  <select name="pays" id="liste-pays">
+                  <option value="">Pays</option>
+                </div>
+    
+                <div>
+                  <label>Ville</label> <br>
+                  <select name="ville" id="list-ville">
+                  <option value="">Ville</option>
+                </div>
+            
+            <input type="submit" value="Valider" aria-label="cliquez pour envoyer">
+    
+        </form>
+    </main>
+</body>
+</html>
