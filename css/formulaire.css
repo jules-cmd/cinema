@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(16, 17, 17);
+    color: #fff;
+}
+valider{
+    color: red;
+}
+footer{
+    margin-top: 10rem;
+}
+form{
+    border:.1rem;
+    border-color: #000000;   
+    border-radius: 10px;
+    background: rgb(16, 17, 17);
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #811f1f;
+    border: 1px solid #811f1f;
+    color: #fff;
+}
+ 
+.btn:hover, .btn:focus {
+    background: #811f1f;
+    text-shadow: 0 -1px #fff;
+}
+ 
+.btn:active {
+    background: #811f1f;
+    text-shadow: 0 -1px #eee;
+    border: 1px solid #811f1f;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/formulaire.css">
 </head>
 <body>
     <header>
@@ -12,32 +13,40 @@
     </header>
     <main>
         <form action="formulaire.html" method="post">
-
-            <label for="nom">Nom</label> <br>
-            <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true"  autofocus>
-    
-            <label for="prenom">Prénom</label> <br>
-            <input type="text" id="prenom" name="prenom" placeholder="Prénom" aria-required="true">
-    
-            <label for="email">Email</label> <br>
-            <input type="text" id="email" name="email" placeholder="Email" aria-required="true">
-    
+            <div>
+                <label for="nom">Nom</label> <br>
+                <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true"  autofocus>
+            </div>
+            <div>
+                <label for="prenom">Prénom</label> <br>
+                <input type="text" id="prenom" name="prenom" placeholder="Prénom" aria-required="true">
+            </div>
+            <div>
+                <label for="email">Email</label> <br>
+                <input type="text" id="email" name="email" placeholder="Email" aria-required="true">
+            </div>
+            <div>
+                <label>Pays</label> <br>
+                <select name="pays" id="liste-pays" class="btn">
+                    <option value="">Selectionnez votre pays</option>
+                </select>
+            </div>
             
-                <div>
-                  <label>Pays</label> <br>
-                  <select name="pays" id="liste-pays">
-                  <option value="">Pays</option>
-                </div>
-    
-                <div>
-                  <label>Ville</label> <br>
-                  <select name="ville" id="list-ville">
-                  <option value="">Ville</option>
-                </div>
+            <div>
+                <label>Ville</label> <br>
+                <select name="ville" id="list-ville" class="btn">
+                    <option value="">Selectionnez votre ville</option>
+                </select>
+            </div>
+            
+                    
+            
         </form>
+        <br>
         <section>
-            <a href="./index.html"><input type="submit" value="Valider" aria-label="cliquez pour envoyer"><a href="./index.html"></a>
-        </section>
+            <a href="./index.html"><input type="submit" class="btn" value="cliquez pour envoyer" aria-label="valider"></a>
+        </section>    
     </main>
+   
 </body>
 </html>
