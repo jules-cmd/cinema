@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
 html{
-    width: 100%;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 body{
+    display: inline-block;
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: #fff;
@@ -50,7 +51,7 @@ input:required {
     padding: 1rem;
     background-color: #292929;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: .2rem;
 }
 .container .form-element {
     position: fixed;
@@ -80,5 +81,7 @@ input:required {
 .btn:active {
     background: #811f1f;
     text-shadow: 0 -1px #eee;
-    border: 2rem solid #811f1f;
+    width: 28rem;
+    margin: 1rem auto;
+    padding: 1rem;
 }
