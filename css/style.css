@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
 html{
-    padding: 0.1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
     border: solid;
     border-color: rgb(0, 0, 0);
 }
 header{
+    text-align: center;
     border: solid;
     border-color: grey;
     padding: 0.1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 body{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(0, 0, 0);
     color: #fff;
+    position: relative;
 }
 /* selection des elements dans main */
 main{
+    display: inline-block;
     text-align: center;
     margin: 0 25%;
 }
@@ -41,9 +42,8 @@ section p{
 .btn {
     font-family: 'Poppins', sans-serif;
     position: relative;
-    display: block;
     width: 440px;
-    margin: 20px auto;
+    margin: 20px;
     padding: 15px;
     background-color: #292929;
     border-radius: 4px;
@@ -63,4 +63,3 @@ section p{
     text-shadow: 0 -1px #eee;
     border: 1px solid #811f1f;
 }
-
