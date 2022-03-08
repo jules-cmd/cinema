@@ -37,12 +37,17 @@ section p{
     border-color: gray;
 }
 .btn {
+    position: relative;
+    display: block;
+    width: 440px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #292929;
+    border-radius: 4px;
     display: inline-block;
-    padding: 5px 10px;
     background: #811f1f;
     border: 1px solid #811f1f;
     color: #fff;
-    border-radius: 0.2rem;
 }
  
 .btn:hover, .btn:focus {

@@ -13,7 +13,7 @@ header{
 }
 section h1{
     text-align: center;
-    margin-top: 3 rem;
+    margin-top: 3rem;
     width: 100%;
 }
 form{
@@ -36,9 +36,30 @@ img{
 footer{
     margin-top: 2rem;
 }
+.container {
+    position: relative;
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.container .form-element {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
 .btn {
+    position: relative;
+    display: block;
+    width: 440px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #292929;
+    border-radius: 4px;
     display: inline-block;
-    padding: 5px 10px;
     background: #811f1f;
     border: 1px solid #811f1f;
     color: #fff;
