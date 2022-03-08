@@ -27,6 +27,8 @@ footer{
 }
 /* disposition des images */
 img{
+    max-width: 100%;
+	height: auto;
     margin-left: 1rem;
     margin-right: 1rem; 
     border-radius: 0.2rem;
@@ -37,6 +39,7 @@ section p{
     border-color: gray;
 }
 .btn {
+    font-family: 'Poppins', sans-serif;
     position: relative;
     display: block;
     width: 440px;

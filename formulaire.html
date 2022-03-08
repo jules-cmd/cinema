@@ -26,26 +26,26 @@
         <form action="formulaire.html" method="post">
             <div>
                 <label for="nom">Nom</label> <br>
-                <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true"  autofocus class="container">
+                <input type="text" required="required" id="nom" name="nom" placeholder="Nom" autofocus class="container">
             </div>
             <div>
                 <label for="prenom">Prénom</label> <br>
-                <input type="text" id="prenom" name="prenom" placeholder="Prénom" aria-required="true" class="container">
+                <input type="text"  required="required" id="prenom" name="prenom" placeholder="Prénom" aria-required="true" class="container">
             </div>
             <div>
                 <label for="email">Email</label> <br>
-                <input type="text" id="email" name="email" placeholder="Email" aria-required="true" class="container">
+                <input type="text"  required="required" id="email" name="email" placeholder="Email" aria-required="true" class="container">
             </div>
             <div>
                 <label>Pays</label> <br>
-                <select name="pays" id="liste-pays" class="btn">
+                <select name="pays"  required="required" id="liste-pays" class="btn">
                     <option value="">Selectionnez votre pays</option>
                 </select>
             </div>
             
             <div>
                 <label>Ville</label> <br>
-                <select name="ville" id="list-ville" class="btn">
+                <select name="ville"  required="required" id="list-ville" class="btn">
                     <option value="">Selectionnez votre ville</option>
                 </select>
             </div>
