@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
 html{
     text-align: center;
+    box-sizing: initial;
     font-family: 'Poppins', sans-serif;
     border: solid;
     border-color: rgb(0, 0, 0);

@@ -2,36 +2,20 @@
 html{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    box-sizing: initial;
 }
 body{
     display: inline-block;
-    text-align: center;
     background-color: rgb(0, 0, 0);
     color: #fff;
     position: relative;
 }
-header{
-    margin-right: 8rem;
-}
 section h1{
-    text-align: center;
     position: relative;
     margin-top: 3rem;
     width: 100%;
 }
-form{
-    border:.1rem;
-    border-color: #000000;   
-    border-radius: 10px;
-    background: rgb(0,0,0);
-    margin-left: 20rem;
-    margin-right: 20rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-}
 img{
-    text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 0.2rem;
