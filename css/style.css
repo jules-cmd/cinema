@@ -30,7 +30,7 @@ footer{
 }
 /* disposition des images */
 figcaption img{
-    box-shadow: rgb(104, 3, 3) 0px 0px 30px;
+    box-shadow: rgb(104, 3, 3) 0px 0px 20px;
     width: 15rem;
     height: 15rem;
     max-width: 100%;

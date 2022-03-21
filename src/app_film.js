@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
     console.log("ok");
     let classicFilm = [{
         photo: "./asset/joker.jpg",
@@ -51,4 +51,4 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("liste", testFilm);
     let stock = localStorage.getItem("liste");
     console.table(JSON.parse(stock));
-});
+});*/
