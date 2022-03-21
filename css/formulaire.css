@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
+@media screen and (orientation: landscape) {
+    .main-content{
+        display: flex;
+        height: 100vh;
+    }
+    .main-content-flex, .main-content-image{
+        height: 100vh;
+        flex: 0 1 50vw;
+    }
+}
+/* media for desk */
+@media screen and (min-width: 80.0rem) {
+    .main-content-flex{
+        flex: 0 1 40vw;
+    }
+}
 html{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -15,22 +31,27 @@ section h1{
     margin-top: 3rem;
     width: 100%;
 }
-img{
+section img{
+    box-shadow: rgb(104, 3, 3) 0px 0px 30px;
+    width: 15rem;
+    height: 15rem;
+    max-width: 100rem;
+	height: auto;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 1rem; 
     border-radius: 0.2rem;
 }
 footer{
     margin-top: 2rem;
 }
 input:required {
-    border: 1px dashed red;
+    border: 1px dashed rgb(104, 3, 3);
     display: block;
 }
 .container {
     position: relative;
     display: block;
-    width: 26rem;
+    width: 40rem;
     margin: 1rem auto;
     padding: 1rem;
     background-color: #292929;
@@ -46,19 +67,19 @@ input:required {
     font-family: 'Poppins', sans-serif;
     position: relative;
     display: block;
-    width: 28rem;
+    width: 42rem;
     margin: 1rem auto;
     padding: 1rem;
     background-color: #292929;
     border-radius: 0.2rem;
     display: inline-block;
-    background: #811f1f;
-    border: 0.1rem solid #811f1f;
+    background: rgb(104, 3, 3);
+    border: 0.1rem solid rgb(104, 3, 3);
     color: #fff;
 }
  
 .btn:hover, .btn:focus {
-    background: #811f1f;
+    background: rgb(104, 3, 3);
     text-shadow: 0 -1px #fff;
 }
  
