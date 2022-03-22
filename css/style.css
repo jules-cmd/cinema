@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200&display=swap');
+
+/* media for desk */
+@media screen and (min-width: 80.0rem) {
+    .main-content-flex{
+        flex: 0 1 40vw;
+    }
+}
+*{
+    box-sizing: border-box;
+    
+}
 html{
     box-sizing: initial;
     font-family: 'Poppins', sans-serif;
     border: solid;
     border-color: rgb(0, 0, 0);
+    
 }
 header{
     text-align: center;
-    display: inline-block;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    position: relative ;
+    font-size: 2rem;
+}
+main .inner-form{
+    max-width: 70rem;
+    margin: 5rem auto 0;
+    padding: 2rem;
 }
 body{
     text-align: center;
@@ -18,25 +32,9 @@ body{
     color: #fff;
     position: relative;
 }
-/* selection des elements dans main */
-main{
-    display: inline-block;
-    
-}
 footer{
-    text-align: center;
-    margin-top: 1rem;
-}
-/* disposition des images */
-figcaption img{
-    box-shadow: rgb(104, 3, 3) 0px 0px 40px;
-    width: 15rem;
-    height: 15rem;
-    max-width: 100%;
-	height: auto;
-    margin-left: 1rem;
-    margin-right: 1rem; 
-    border-radius: 0.2rem;
+   text-align: center;
+    margin-top: 2rem;
 }
 .btn {
     font-family: 'Poppins', sans-serif;
@@ -61,4 +59,17 @@ figcaption img{
     background: rgb(104, 3, 3);
     text-shadow: 0 -1px #eee;
     border: 1px solid rgb(104, 3, 3);
+}
+ 
+
+
+figcaption img{
+    box-shadow: rgb(104, 3, 3) 0px 0px 40px;
+    width: 15rem;
+    height: 15rem;
+    max-width: 100%;
+	height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    border-radius: 0.2rem;
 }
