@@ -1,67 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire Jules</title>
+    <title>Formulaire</title>
     <link rel="stylesheet" href="./css/formulaire.css">
     <link rel="icon" type="image/jpg" href="./asset/JM.jpg">
 </head>
 <body>
     <header>
-        <h1 id="titre"> <img src="./asset/JM.jpg" alt="logo" id="logo"> Films, séries TV  et bien plus en illimité</h1> 
+        <h1>Formulaire de contact</h1>
     </header>
     <main>
         <section>
-        <figure>
-            <img src="./asset/joker.jpg" alt="img">
-            <img src="./asset/mando.jpg" alt="img">
-            <img src="./asset/the-batman.jpg" alt="img">
-            <img src="./asset/harry-potter.jpg" alt="img">
-        </figure>
+            <ul>
+                <img src="./asset/joker.jpg" alt="img">
+                <img src="./asset/mando.jpg" alt="img">
+                <img src="./asset/the-batman.jpg" alt="img">
+                <img src="./asset/harry-potter.jpg" alt="img">
+            </ul>
         </section>
-        <section>
-            <h1> Remplissez le Formulaire </h1>
-        </section>
-        <form action="formulaire.html" method="post">
-            <div>
-                <label for="nom">Nom</label> <br>
-                <input type="text" required="required" id="nom" name="nom" placeholder="Nom" autofocus class="container">
-            </div>
-            <div>
-                <label for="prenom">Prénom</label> <br>
-                <input type="text"  required="required" id="prenom" name="prenom" placeholder="Prénom" aria-required="true" class="container">
-            </div>
-            <div>
-                <label for="email">Email</label> <br>
-                <input type="text"  required="required" id="email" name="email" placeholder="Email" aria-required="true" class="container">
-            </div>
-            <div>
-                <label>Pays</label> <br>
-                <select name="pays"  required="required" id="liste-pays" class="btn">
-                    <option value="">Selectionnez votre pays</option>
-                </select>
-            </div>
+        <div class="inner-form" role="form">
             
-            <div>
-                <label>Ville</label> <br>
-                <select name="ville"  required="required" id="list-ville" class="btn">
-                    <option value="">Selectionnez votre ville</option>
-                </select>
-            </div>
-            
-                    
-            
-        </form>
-         <br>
-        <section>
-            <a href="./index.html"><input type="submit" class="btn" value="cliquez pour envoyer" aria-label="valider"></a>
-        </section>    
+        <fieldset class="container">
+            <legend>Espace membre</legend>
+            <form action="index.html" method="post"> <!-- mettre le nom du fichier html dans aciton -->
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Nom" aria-required="true" class="container" autofocus>
+
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Prénom" aria-required="true" class="container">
+
+                <label for="date">Date de naissance</label>
+                <input type="date" id="date" name="date" aria-required="true" class="container">
+    
+                <label for="phone">Votre téléphone</label>
+
+                <input type="tel" id="phone" name="phone" aria-label="format à 10 chiffre" placeholder="téléphone" aria-required="true" class="container">
+
+                <small>Format: (+33)06-28-07-26-08</small>
+                
+
+            </form>
+        </fieldset>
+        </div>
     </main>
+    <a href="./index.html"><input type="submit" class="btn" value="cliquez pour envoyer" aria-label="valider"></a>
     <footer>
-        <p>&copy; Streaming -2022</p>
+        <p>
+            &copy; - cinéma -&nbsp;
+        </p>
     </footer>
-   
 </body>
 </html>

@@ -15,42 +15,43 @@
         flex: 0 1 40vw;
     }
 }
+*{
+    box-sizing: border-box;
+    
+}
 html{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
     box-sizing: initial;
+    font-family: 'Poppins', sans-serif;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    
+}
+header{
+    text-align: center;
+    font-size: 2rem;
 }
 body{
-    display: inline-block;
+    text-align: center;
     background-color: rgb(0, 0, 0);
     color: #fff;
     position: relative;
 }
-section h1{
-    position: relative;
-    margin-top: 3rem;
-    width: 100%;
-}
 section img{
+    text-align: center;
+    display: inline-block;
     box-shadow: rgb(104, 3, 3) 0px 0px 30px;
-    width: 15rem;
-    height: 15rem;
-    max-width: 100rem;
-	height: auto;
-    margin-left: 1rem;
-    margin-right: 1rem; 
+    margin: 2rem;
+    width: 9.3rem; 
     border-radius: 0.2rem;
 }
 footer{
+    text-align: center;
     margin-top: 2rem;
 }
-input:required {
-    border: 1px dashed rgb(104, 3, 3);
-    display: block;
+ul{
+    text-align: center;
 }
-.container {
-    position: relative;
-    display: block;
+.container{
     width: 40rem;
     margin: 1rem auto;
     padding: 1rem;
@@ -59,25 +60,19 @@ input:required {
     border-radius: .2rem;
 }
 .container .form-element {
-    position: fixed;
     margin: 0 auto;
     padding-bottom: 16px;
 }
-.btn {
+.btn{
     font-family: 'Poppins', sans-serif;
-    position: relative;
-    display: block;
     width: 42rem;
-    margin: 1rem auto;
     padding: 1rem;
     background-color: #292929;
     border-radius: 0.2rem;
-    display: inline-block;
     background: rgb(104, 3, 3);
     border: 0.1rem solid rgb(104, 3, 3);
     color: #fff;
 }
- 
 .btn:hover, .btn:focus {
     background: rgb(104, 3, 3);
     text-shadow: 0 -1px #fff;
@@ -87,6 +82,5 @@ input:required {
     background: #811f1f;
     text-shadow: 0 -1px #eee;
     width: 28rem;
-    margin: 1rem auto;
     padding: 1rem;
 }

@@ -1,0 +1,20 @@
+{
+  "name": "dm-js",
+  "version": "1.0.0",
+  "description": "echo \"# cinema\"\r charte graphique :\r     -background-color : rgb(0, 0, 0)\r     -btn color : rgb(104, 3, 3)\r     -typographie : Poppins', sans-serif\r https://jules-cmd.github.io/cinema/",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --no-babelrc src -w -d js --preset=env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jules-cmd/cinema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jules-cmd/cinema/issues"
+  },
+  "homepage": "https://github.com/jules-cmd/cinema#readme"
+}
