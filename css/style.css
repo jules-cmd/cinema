@@ -89,16 +89,6 @@ footer{
     border: 1px solid rgb(104, 3, 3);
 }
 
-
-main .grid-picture-large{
-    display:  grid;
-    max-width: 90rem;
-    margin: 5rem auto;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    padding: 1rem;
-}
-
 ul figure{
     position: relative;
 }
