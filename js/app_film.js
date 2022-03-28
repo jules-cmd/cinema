@@ -1,4 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     console.log("ok");
     let classicFilm = [{
         photo: "./asset/joker.jpg",
@@ -24,6 +24,13 @@
         date: 2022,
         realisateur: "test",
         genre: ""
+    },
+    {
+        photo: "./asset/ready_player_one.jpg",
+        titre: "ready player one",
+        date: 2018,
+        realisateur: "test",
+        genre: "Science-fiction "
     }];
 
     console.table(classicFilm);

@@ -65,9 +65,8 @@ footer{
 }
  
 figure img{
-    box-shadow: rgb(104, 3, 3) 0px 0px 40px;
+    box-shadow: rgb(26, 25, 25) 0px 0px 40px;
     width: 15rem;
-
     max-width: 100%;
 	height: auto;
     margin-left: 1rem;
