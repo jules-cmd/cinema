@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         genre: ""
     }];
     
-    console.table(classicFilm);
+    console.log(classicFilm);
     let target = "";
     let el = document.querySelector("figcaption");
     for (data of classicFilm) {

@@ -27,6 +27,7 @@ main .inner-form{
     padding: 2rem;
 }
 body{
+    display: grid;
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: #fff;
@@ -63,7 +64,7 @@ footer{
  
 
 
-figcaption img{
+figure img{
     box-shadow: rgb(104, 3, 3) 0px 0px 40px;
     width: 15rem;
     height: 15rem;
