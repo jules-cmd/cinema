@@ -12,7 +12,7 @@
 }
 html{
     box-sizing: initial;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     border: solid;
     border-color: rgb(0, 0, 0);
     
@@ -63,6 +63,7 @@ fieldset form input[placeholder]{
     transition-duration: 0.5s; 
 }
 .btn{
+    font-family: 'Bebas Neue';
     text-align: center;
     color: #fff;
     background-color:  rgb(104, 3, 3);

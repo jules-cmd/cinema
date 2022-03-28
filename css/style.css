@@ -12,7 +12,7 @@
 }
 html{
     box-sizing: initial;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     border: solid;
     border-color: rgb(0, 0, 0);
     
@@ -38,7 +38,7 @@ footer{
     margin-top: 2rem;
 }
 .btn {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     position: relative;
     width: 440px;
     margin: 20px;
