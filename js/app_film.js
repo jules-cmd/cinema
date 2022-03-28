@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
     console.log("ok");
     let classicFilm = [{
         photo: "./asset/joker.jpg",
