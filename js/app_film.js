@@ -1,11 +1,12 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
     console.log("ok");
     let classicFilm = [{
         photo: "./asset/joker.jpg",
         titre: "Joker",
         date: 2019,
         realisateur: "test",
-        genre: "thriller" }, {
+        genre: "thriller" 
+    },{
         photo: "./asset/mando.jpg",
         titre: "the mandalorian",
         date: 2021,

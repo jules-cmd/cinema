@@ -64,6 +64,7 @@ fieldset form input[placeholder]{
 }
 .btn{
     font-family: 'Bebas Neue';
+    font-size: large;
     text-align: center;
     color: #fff;
     background-color:  rgb(104, 3, 3);
