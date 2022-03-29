@@ -62,17 +62,17 @@ footer{
     font-size: large;
     text-align: center;
     color: #fff;
-    background-color:  rgb(104, 3, 3);
+    background-color:  #730000;
     display: relative;
     border-radius: .2rem;
     width: 35rem;
     line-height: 3.5rem;
-    border: solid .1rem  rgb(104, 3, 3);
+    border: solid .1rem  #730000;
     margin-bottom: .5rem;
 }
  
 .btn:hover, .btn:focus {
-    background: rgb(104, 3, 3);
+    background: #730000;
     text-shadow: 0 -1px #fff;
 }
 .main-grid{
@@ -84,9 +84,9 @@ footer{
 }
  
 .btn:active {
-    background: rgb(104, 3, 3);
+    background: #730000;
     text-shadow: 0 -1px #eee;
-    border: 1px solid rgb(104, 3, 3);
+    border: 1px solid #730000;
 }
 
 ul figure{
