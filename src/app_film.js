@@ -1,54 +1,44 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("ok");
-    let classicFilm = [{
-        photo: "./asset/joker.jpg",
-        titre: "Joker",
-        date: 2019,
-        realisateur: "test",
-        genre: "thriller"}, 
-    {
-        photo: "./asset/mando.jpg",
-        titre: "the mandalorian",
-        date: 2021,
-        realisateur: "test",
-        genre: "Science-fiction "
-    }, {
-        photo: "./asset/harry-potter.jpg",
-        titre: "Harry potter",
-        date: 2019,
-        realisateur: "test",
-        genre: "thriller"
-    },{
-        photo: "./asset/the-batman.jpg",
-        titre: "The batman",
-        date: 2022,
-        realisateur: "test",
-        genre: ""
-    }];
-    
-    console.log(classicFilm);
-    let target = "";
-    let el = document.querySelector("figcaption");
-    for (data of classicFilm) {
-        console.log(`${data.photo} ${data.titre} ${data.date} 
-        ${data.realisateur} ${data.genre}`);
-        //afficher dans le dom
-        target += `<figure>
-                <img src="${data.photo}" alt="${data.titre}">
-                <figcaption>
-                    <ul>
-                        <h2>${data.titre}</h2>
-                        Date : ${data.date}
-                        Réalisateur : ${data.realisateur}
-                        Genre : ${data.genre}
-                    </ul>
-                </figure>
-                `;
+document.addEventListener("DOMContentLoaded", (e) => {
+    console.log(navigator.userAgent);
+  
+    let el, modal, closed, open_modal, closed_all, footer_right;
+  
+    el = document.querySelectorAll(".main-grid li");
+    modal = document.querySelector(".parent-modale");
+    closed = document.querySelector(".modale button");
+    closed_all = document.querySelector(".modale image");
+    footer_right = document.querySelector("footer p")
+     
+    let time = new Date().getFullYear()
+      footer_right.innerText+=` ${time}`
+    /* property elements */
+  
+    open_modal = function () {
+      console.log(this.dataset);
+      /* les variables */
+      let image = this.dataset.image;
+      let title = this.dataset.title;
+      let desc = this.dataset.description;
+      let dates = this.dataset.dates;
+      modal.classList.add("modale-active"); /* ajouter la classe active */
+      /* sélectionner les sélecteurs html*/
+      document.querySelector(".modale img").setAttribute("src", image);
+      document.querySelector(".modale .desc h3").innerText = title;
+      document.querySelector(
+        ".modale .desc p"
+      ).innerHTML = `<strong>Déscription : </strong>${desc}`;
+      document.querySelector(".modale .desc time").innerText = ` Année ${dates}`;
+      document
+        .querySelector(".modale .desc time")
+        .setAttribute("datetime", dates);
+    };
+    for (rows of el) {
+      rows.addEventListener("click", open_modal);
     }
-    el.innerHTML = target;
-    //local storage
-    let testFilm = JSON.stringify(classicFilm);
-    localStorage.setItem("liste", testFilm);
-    let stock = localStorage.getItem("liste");
-    console.table(JSON.parse(stock));
-});
+    closed.addEventListener("click", () => {
+      modal.classList.remove("modale-active");
+    });
+    closed_all.addEventListener("click", () => {
+      modal.classList.remove("modale-active");
+    });
+  })
