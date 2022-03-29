@@ -5,4 +5,4 @@ Mijon Jules , étudiant SIO Slam 1 Itic Paris
 [voir_la_page_web] (https://jules-cmd.github.io/cinema/)
 
 # charte graphique :
-[Palette] (asset/palette.png)
+[Palette](/asset/palette.png) 
