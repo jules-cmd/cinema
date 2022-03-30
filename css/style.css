@@ -132,7 +132,8 @@ ul figure:hover figcaption{
     transition: all 0.4s ease-in-out;
 }
 .parent-modale .modale{
-    max-width: 35rem;
+    max-width: 40rem;
+    max-height: 80rem;
     padding: 1rem;
     position: fixed;
     top: 50%;
@@ -170,11 +171,28 @@ ul figure:hover figcaption{
 .parent-modale .modale button{
     position: absolute;
     background-color: initial;
-    top: 1.5rem;
+    top: .5rem;
+    bottom: .5rem;
     right: 1.5rem;
-    font-size: 2rem;
+    left: 1.5rem;
+    font-size: 14rem;
+    margin-top: 1rem;
     z-index: 2;
-    color: #333;
+    color: rgba(255, 255, 255, 0);
+    border-color: rgba(194, 5, 5, 0);;
     cursor: pointer;
 }
-
+/*
+.parent-modale .modale button{
+    position: absolute;
+    background-color: initial;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 14rem;
+    margin-top: 14rem;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);;
+    cursor: pointer;
+}
+*/
