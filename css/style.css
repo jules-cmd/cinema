@@ -32,6 +32,9 @@ h1,h2,h3,h4,ul,ol,p,figure,blockquote{
 *{
     box-sizing: border-box;
 }
+section, h3{
+    font-family: Arial, sans-serif;
+}
 img{
     height: 100%;
     width: 100%;
@@ -48,6 +51,7 @@ main h2, section h3{
     text-align: center;
     font-size: 3rem;
 }
+
 main .inner-form{
     max-width: 70rem;
     margin: 5rem auto 0;
@@ -184,17 +188,3 @@ ul figure:hover figcaption{
     border-color: rgba(194, 5, 5, 0);;
     cursor: pointer;
 }
-/*
-.parent-modale .modale button{
-    position: absolute;
-    background-color: initial;
-    top: 1.5rem;
-    right: 1.5rem;
-    font-size: 14rem;
-    margin-top: 14rem;
-    z-index: 2;
-    color: rgba(255, 255, 255, 0);
-    border-color: rgba(255, 255, 255, 0);;
-    cursor: pointer;
-}
-*/
